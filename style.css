@@ -1,0 +1,253 @@
+/*Navigasi Bar*/	
+	.nav{
+		box-shadow: 0 0 2px #888888;
+		position: fixed;
+		margin-top: -6%;
+		width: 100%;
+		height: 70px;
+		background-color: white;
+		z-index: 5;
+	}
+	.nav-logo{
+		box-shadow: 0 0 2px #888888;
+		width: 29%;
+		height: 100%;
+		display: inline-block;
+	}
+	.nav-logo img{
+		margin-left: 70%;
+		width: 30px;
+		height: 30px;
+		padding-top: 18px;
+	}
+	.nav-logo p{
+		margin-top: -32px;
+		margin-left: 23%;
+		position: fixed;
+		font-family: Arial;
+		font-size: 23px;
+	}
+	.nav .search{
+		display: inline-block;
+		margin-left: 300px;
+		position: fixed;
+		margin-top: 20px;
+	}
+	.nav .search input[type=text]{
+		height: 30px;
+		width: 180px;
+		border-radius: 20px;
+		text-align: center;
+		transition: width .20s linear;
+	}
+	.nav .search input[type=text]:hover{
+		height: 30px;
+		width: 230px;
+		text-align: center;
+	}
+	.nav .login{
+		display: inline-block;
+		margin-left: 45%;
+		position: fixed;
+		margin-top: 20px;
+		box-shadow: 1 0 2px #888888;
+	}
+	.login button{
+		width: 100px;
+		height: 35px;
+		border-radius: 20px;
+	}
+	.login button:hover{
+		width: 100px;
+		height: 35px;
+		background-color: blue;
+		border-radius: 20px;
+		color: white;
+	}
+/*----------------------------------------------------------------------------------*/
+
+
+/*Class Struktur Body Utama Konten*/
+	.body{ 
+		width: 70%;
+		margin-left: 17%;
+		margin-top: 6%;
+	}
+/*----------------------------------------------------------------------------------*/
+
+/*Logo Gambar*/
+	.judul{
+		width: 100%;
+		height: 70px;
+		padding: 10px 0px;
+		z-index: -1;
+	}
+/*---------------------------------------------------------------------------------*/
+
+
+
+/*Navigasi Bar Halaman*/
+	.blog{
+		border-radius: 5px;
+		background: #21409A;
+   		background: -moz-linear-gradient(right, #21409a 50%, #007cbd 100%);
+    	background: -webkit-linear-gradient(right, #21409a 50%, #007cbd 100%);
+    	background: linear-gradient(to right, #21409a 50%, #007cbd 100%);
+		height: 38px;
+		width: 100;
+		padding: 1 2px;
+	}
+	.blog1{
+		border-radius: 5px;
+		background: #b8c3c9;
+   		background: -moz-linear-gradient(right, #b8c3c9 50%, #949596 100%);
+    	background: -webkit-linear-gradient(right, #b8c3c9 50%, #949596 100%);
+    	background: linear-gradient(to right, #b8c3c9 50%, #949596 100%);
+		height: 38px;
+		width: 100%;
+		margin-top: -16px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	.blog li{
+		display: inline;
+		margin-right: 10px;
+		margin-left: 50px;
+	}
+	.blog1 li{
+		display: inline;
+		margin-right: 10px;
+		margin-left: 50px;
+	}
+	.blog li a{
+		font-size: 23px;
+		color: white;
+		text-decoration: none;
+		font-family: Gadugi;
+	}
+	.blog1 li a{
+		font-size: 23px;
+		color: black;
+		text-decoration: none;
+		font-family: Gadugi;
+	}
+/*------------------------------------------------------------------------------------*/
+
+
+
+/*Class Utama Galrrry*/
+	.isi{
+		margin-top: 0px;
+		margin-bottom: 0;
+		height: 780px;
+	}
+/*---------------------------------------------------------------------------------*/
+
+
+
+/*Gambar dan DEskripsi*/
+	.gallery {
+		margin: 15px;
+		float: left;
+		width: 200px;
+		overflow: hidden;
+	}
+	.img-wrapper{
+		width: 100%;
+		height: 110px;
+		overflow: hidden;
+	}
+	/*.gallery:hover {
+	  border: 1px solid #777;
+	}*/
+
+	/*.gallery img {
+	  	width: 100%;
+	  	height: auto;
+	}*/
+	.gallery img {
+	    max-width: 100%;
+	    transition: all 0.5s;
+	    display: block;
+	    width: 100%;
+	    height: auto;
+	    transform: scale(1);
+	}
+	.gallery:hover img {
+	    transform: scale(1.1);
+	}
+	.desc {
+		margin-top: 8px;
+	  	text-align: left;
+	}
+	.desc a{
+		text-decoration:none;
+		font-size: 20px;
+	}
+	.konten{
+		width: 700px;
+		height: 500px;
+		margin-left: 15px;
+		overflow: hidden;
+		background-color: blue;
+		border-radius: 10px;
+	}
+	.konten-img-wrapper{
+		height: 400px;
+		width: 700px;
+		overflow: hidden;
+	}
+	.konten-img{
+		transition: all .5s;
+		cursor: pointer;
+		width: 100%;
+		height: 100%;
+		background-image: url("coba.jpg");
+	}
+	.konten-img:hover, .konten-img:focus {
+	    transform: scale(1.1);
+	}
+	.konten-title-wrapper{
+		margin-left: 25px;
+		margin-top: -80px;
+		font-family: Gadugi;
+		position: absolute;
+	}
+	.konten-title{
+		font-weight: 700;
+		font-size: 25px;
+		color: white;
+	}
+	.konten-title:hover{
+		color: yellow;
+	}
+	.konten-date{
+		font-weight: 700;
+		font-size: 20px;
+	}
+/*---------------------------------------------------------------------------------*/
+
+
+
+/*class gallery*/
+	.tabel{
+		margin-top: 5px;
+	}
+/*---------------------------------------------------------------------------------*/
+	
+
+
+/*Footer*/
+	.footer{
+		margin-top: 0px;
+		background-color: black;
+		width: 100%;
+		height: 50px;
+		padding: 20px 0px;
+	}
+	.footer p{
+		text-align: center;
+		color: white;
+		text-decoration:none;	
+	}
+/*----------------------------------------------------------------------------------*/
